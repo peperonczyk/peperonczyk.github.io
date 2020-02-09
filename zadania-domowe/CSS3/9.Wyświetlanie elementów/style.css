@@ -1,0 +1,30 @@
+#p1 {
+  background-color: green;
+}
+#p2{
+  background-color: yellow;
+}
+#inline-elements p{
+display: inline;
+}
+#inline-p1{
+  background-color: red;
+}
+#inline-p2{
+  background-color: blue;
+}
+#inline-block-elements li{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  background-color: violet;
+ 
+}
+#inline-block-elements > ul {
+  list-style-type: none;
+}
+#display-none{
+  display: none;
+}
