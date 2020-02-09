@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  background-color: wheat;
+  color: black;
+}
+
+p{
+  color: green;
+}
+
+#kasia {
+  color: royalblue;
+}
+
+.lorak{
+  color: beige;
+  background-color: black;
+}
+
+div.lorak{
+  color: green;
+}
+a > span{
+  background-color: royalblue;
+}
+
+ul a{
+  color:blue
+}
+#pierwszy ~li{
+  background-color: #444;
+}
+#pierwszy + li{
+  background-color: red;
+}
+
