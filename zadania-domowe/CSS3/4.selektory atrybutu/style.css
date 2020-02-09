@@ -26,3 +26,4 @@ nav > ul > li > a[title*="lls"]:hover{
 nav > ul > li > a[title*="lls"]+a{
   background-color: gold
 }
+
