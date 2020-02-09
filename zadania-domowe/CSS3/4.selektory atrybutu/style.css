@@ -1,0 +1,28 @@
+[title]{
+  color:green;
+}
+[title="About me"]{
+  color: fuchsia;
+}
+[title="Section skills"]{
+  color:red;
+}
+[title^="Section"]{
+  color: gold;
+}
+[title$="skills"]{
+  color:blue;
+}
+[title*="title"]{
+  background-color: red;
+}
+
+nav > ul > li > a[title*="lls"]{
+  background-color: #111
+}
+nav > ul > li > a[title*="lls"]:hover{
+  background-color: gold;
+}
+nav > ul > li > a[title*="lls"]+a{
+  background-color: gold
+}
