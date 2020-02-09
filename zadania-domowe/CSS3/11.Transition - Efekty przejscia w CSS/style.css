@@ -1,0 +1,40 @@
+body{
+  min-height: 200vh;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+#colors{
+  transition-property: background-color;
+  transition-duration: 1.5s;
+  transition-delay: 1s;
+  transition-timing-function: linear;
+  background-color:red;
+}
+#colors:hover{
+  background-color: yellow;
+}
+.box-width{
+  background-color: purple;
+  transition: width 1s;
+}
+.box-width:hover{
+  width: 300px;
+}
+.box-height{
+  background-color: blue;
+  transition: height 0.5s;
+}
+.box-height:hover{
+  height: 20px;
+}
+.box-width-height{
+  background-color: yellow;
+  transition: width 0.5s, height 2s;
+}
+.box-width-height:hover{
+  width: 300px;
+  height: 300px;
+}
