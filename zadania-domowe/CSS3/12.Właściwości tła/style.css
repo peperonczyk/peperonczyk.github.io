@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#background-img{
+  background-color: olivedrab;
+  background-image: url(../10.Floating\ -\ Opływanie\ elementów/truskawka.jpg);
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
