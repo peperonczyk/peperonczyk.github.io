@@ -1,0 +1,29 @@
+div{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.width{
+  background-color: green;
+  transition: .8s;
+}
+.width:hover{
+  width: 300px;
+}
+
+.height{
+  background-color: red;
+  transition: .7s;
+}
+.height:hover{
+  height: 300px;
+}
+.widthAndHeight{
+background-color: blue;
+transition: .3s;
+}
+.widthAndHeight:hover{
+  width: 300px;
+  height: 300px;
+}
