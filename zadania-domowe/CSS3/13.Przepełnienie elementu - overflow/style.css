@@ -1,0 +1,22 @@
+.box{
+  width: 300px;
+  height: 150px;
+  background-color: palegreen;
+  border: 5px solid olivedrab;
+  margin:50px;
+  padding: 30px;
+}
+
+#visible{
+  overflow: visible;
+}
+#hidden{
+  overflow: hidden;
+}
+#scroll{
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#auto{
+  overflow: auto;
+}
