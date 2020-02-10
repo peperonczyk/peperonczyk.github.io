@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  min-width: 600px;
+  width: 600px;
+  min-height: 600px;
+  height: 600px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* ELEMENTY KWADRATOWE  */
+.square{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:nth-child(2){
+  background-color: blue
+}
+.square:nth-child(3){
+  background-color: green;
+}
+.square:nth-child(4){
+  background-color: yellow;
+}
+.square:nth-child(5){
+  background-color: black;
+}
+.square:nth-child(6){
+  background-color: orangered;
+}
+.square:nth-child(7){
+  background-color: purple;
+}
+.square:nth-child(8){
+  background-color:grey;
+}
+.square:nth-child(9){
+  background-color: pink;
+}
+
+/* ELEMENTY OKRĄGŁE */
+.circle{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.square:nth-child(2)>.circle{
+  background-color: gray;
+}
+.square:nth-child(3)>.circle{
+  background-color: purple;
+}
+.square:nth-child(4)>.circle{
+  background-color: green;
+}
+.square:nth-child(5)>.circle{
+  background-color: red;
+}
+.square:nth-child(6)>.circle{
+  background-color: blue;
+}
+.square:nth-child(7)>.circle{
+  background-color: orange;
+}
+.square:nth-child(8)>.circle{
+  background-color: yellow;
+}
+.square:nth-child(9)>.circle{
+  background-color: black;
+}
