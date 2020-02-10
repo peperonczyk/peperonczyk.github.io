@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: #ccc;
+}
+form{
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: brown;
+  padding: 10px;
+  background-color: wheat;
+  font-size: 14px;
+  border: 2px solid rgb(216, 127, 112); ;
+  border-radius: 20px;
+}
+form input, form select{
+  margin-bottom: 5px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form select , form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
+width: 250px;
+height: 35px;
+background-color: rgb(216, 127, 112);
+font-size: 18px;
+border: none;
+border-radius: 5px;
+padding: 5px;
+}
+small{
+  font-style: italic;
+  color:black;
+}
+p{
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+form textarea{
+  max-width: 400px;
+  min-width: 400px;
+  min-height: 200px;
+  max-height: 200px;
+ 
+}
+
+form select:focus, form input:focus, form textarea:focus{
+  background-color: rgb(216, 187, 112);
+  border: 1px solid rgb(216, 187, 112);
+  outline: none;
+}
+
+form input[type='radio']{
+  float: left;
+}
+label[for="agreement"],
+form input[type="checkbox"]{
+  display: inline-block;
+  font-size: 17px;
+}
+
+form input[type="submit"]{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.76);
+  margin-top: 5px;
+  border: none;
+  color: #fff;
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: .5s;
+}
+form input[type="submit"]:hover{
+  background-color: black;
+}
