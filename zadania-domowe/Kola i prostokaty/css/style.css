@@ -1,0 +1,36 @@
+body{
+  background-color: green;
+}
+.wp{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+.wrapper1,.wrapper4,.wrapper2{
+  top: 0;
+  left: 0;
+}
+.wrapper2, .wrapper3{
+  left: calc(100% - 200px)
+}
+.wrapper3,.wrapper4{
+  top: calc(100% - 200px);
+}
+.wp > div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.wrapper1s{
+  bottom: 0;
+  right: 0;
+}
+.wrapper2s{
+  bottom: 0;
+}
+.wrapper4s{
+  right: 0;
+}
