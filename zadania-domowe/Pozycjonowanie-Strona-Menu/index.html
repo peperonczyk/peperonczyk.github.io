@@ -5,10 +5,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <div class="wrapper">
+    <header id="Home" class="header">
+      <span class="header__span"></span>
+      <h1 class="header__h1">Front End Developer</h1>
+    </header>
+    <main class="main">
+      <nav class="main__navigation" style="position: sticky;">
+        <ul class="navigation__ul">
+          <li class="navigation__listItem"><a href="#Home">Home </a></li>
+          <li class="navigation__listItem"><a href="#About">About</a></li>
+          <li class="navigation__listItem"><a href="#Portfolio">Portfolio </a></li>
+          <li class="navigation__listItem"><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </main>
+    <section id="About" class="about">
+      <h2 class="about__h2">O mnie</h2>
+      <div class="about__conteiner">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem optio fugiat quia
+          nostrum iure, quaerat odit
+          magni. Deserunt reprehenderit minima consequatur libero eligendi.</p>
+        <span class="about__circle circleOne"></span>
+        <span class="about__circle circleTwo"></span>
+        <span class="about__circle circleThree"></span>
+        <span class="about__circle circleFour"></span>
+      </div>
 
+    </section>
+    <section id="Portfolio" class="portfolio">
+      <h2 class="portfolio__h2">Portfolio</h2>
+      <div class="portfolio__circle"><span class="smallCircle"></span></div>
+      <div class="portfolio__circle"><span class="smallCircle"></span></div>
+      <div class="portfolio__circle"><span class="smallCircle"></span></div>
+      <div class="portfolio__circle"><span class="smallCircle"></span></div>
+    </section>
+    <footer id="Contact" class="footer">
+      <h2 class="footer__h2">Kontakt</h2>
+      <address class="footer__address">
+        Jan Nowak <br>
+        ul.Pokątna 2 <br>
+        00-000 Warszawa <br>
+        tel. 123 456 789
+      </address>
+    </footer>
+  </div>
 </body>
 
 </html>
