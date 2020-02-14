@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+margin-left: 50px;
+margin-top: 20px;
+  font-size: 33px;
+}
+li {
+  padding: 5px;
+}
+li:nth-child(1)>a{
+  color: red;
+}
+li:nth-child(2)>a{
+  color: green;
+}
+a{
+  color: purple;
+  text-decoration: none;
+}
