@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 100vh;
+  min-height: 600px;
+  background-image: url(../img/man1.jpg);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+div{
+  margin-top: 130px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1{
+  padding-top: 20px;
+}
+
+@media(min-width:992px) and (max-width: 1169px){
+  header{
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: right;
+    background-image: url(../img/man2.jpg);
+    background-size: 100% 70%;
+    
+  }
+  div{
+    margin-top: 80px;
+    text-align: left;
+    color: white;
+    padding-right: 20px;
+  }
+  h1{
+    padding-top: 20px;
+  }
+}
+
+@media(min-width: 1170px){
+  header{
+    background-size: 100% 100%;
+    justify-content: flex-start;
+  }
+  div{
+    text-align: left;
+    color:white;  
+    padding-left: 40px;
+  }
+
+}
