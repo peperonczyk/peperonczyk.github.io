@@ -3,10 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  height: 100vh;
-   min-height:100vh;
-}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -47,16 +44,15 @@ body{
 .product:hover::after{
 content: "\f07a";
 font-family: "FontAwesome";
+display: flex;
+justify-content: center;
+align-items: center;
  font-weight: 900;
  font-size: 100px;
- text-align: center;
  color: white;
- line-height: 50vh;
-display: inline-block;
 width: 100%;
 height: 100%;
 background-color: rgba(255, 111, 0, .6)
-
 }
 
 /* ROZDZIELCZOSĆ PONIŻEJ 992PX */
@@ -72,7 +68,6 @@ background-color: rgba(255, 111, 0, .6)
   }
   .product:hover::after{
     font-size: 75px;
-    line-height: 40vh;
   }
 }
 
@@ -89,7 +84,6 @@ background-color: rgba(255, 111, 0, .6)
     margin: 10px;
   }
   .product:hover::after{
-    font-size: 75px;
-    line-height: 40vh;
+    font-size: 55px;
   }
 }
