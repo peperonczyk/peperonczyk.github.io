@@ -32,7 +32,6 @@ h1{
     text-align: right;
     background-image: url(../img/man2.jpg);
     background-size: 100% 70%;
-    
   }
   div{
     margin-top: 80px;
@@ -47,7 +46,7 @@ h1{
 
 @media(min-width: 1170px){
   header{
-    background-size: 100% 100%;
+    background-size: cover;
     justify-content: flex-start;
   }
   div{
