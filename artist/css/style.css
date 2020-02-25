@@ -709,7 +709,10 @@ margin-bottom: 50px;
   }
 }
 
-@media(max-width: 800px){
+@media (max-width: 800px){
+  .wrapper__nav{
+    width: 100px;
+    } 
   .section__about{
     height: 400px;
   }
