@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- navigation  -->
+    <span class="nav__btn"><i class="fas fa-bars"></i></span>
+    <nav class="wrapper__nav">
+      <span class="nav__menu"></span>
+      <ul class="header__ul">
+        <li class="header__listItem"><a href="#start" class="header__a">Start</a></li>
+        <li class="header__listItem"><a href="#about" class="header__a">About</a></li>
+        <li class="header__listItem"><a href="#services" class="header__a">Services</a></li>
+        <li class="header__listItem"><a href="#portfolio" class="header__a">Portfolio</a></li>
+        <li class="header__listItem"><a href="#contact" class="header__a">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- header  -->
+    <header class="header">
+      <h1 class="header__h1">Stylish Portfolio</h1>
+      <button class="header__btn btn">Find Out More</button>
+
+      <span onclick="topFunction()" id="scrollTop" class="scrollTopButton" ><i class="fas fa-angle-up"></i></span>
+
+    </header>
+    <!-- section about -->
+    <section class="about">
+      <h2 class="about__h2">Stylish Portfolio is the perfect theme for your next project!</h2>
+      <p class="about__p">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+        <span class="about__span">Unsplash!</span></p>
+      <button class="about__btn btn">What We Offer</button>
+    </section>
+    <!-- section services -->
+    <section class="services">
+      <span class="services__slogan">Services</span>
+      <h2 class="services__h2">What We Offer</h2>
+      <div class="services__container">
+        <div class="services__content">
+          <span class="services__logo"><i class="fas fa-mobile-alt"></i></span>
+          <p class="services__name">Responsive</p>
+          <p class="services__description">Looks great on any screen size!</p>
+        </div>
+        <div class="services__content">
+          <span class="services__logo"><i class="fas fa-pencil-alt"></i></span>
+          <p class="services__name">Redesigned</p>
+          <p class="services__description">Freshly redesigned for Bootstrap 4.</p>
+        </div>
+        <div class="services__content">
+          <span class="services__logo"><i class="fas fa-thumbs-up"></i></span>
+          <p class="services__name">Favorited</p>
+          <p class="services__description">Milliions of users</p>
+        </div>
+        <div class="services__content">
+          <span class="services__logo"><i class="fas fa-question"></i></span>
+          <p class="services__name">Question</p>
+          <p class="services__description">I mustache you a question...</p>
+        </div>
+      </div>
+    </section>
+    <!-- section welcome  -->
+    <section class="section__welcome">
+      <div class="section__container">
+        <h2 class="section__h2">Welcome to <span style="font-style: italic;">your</span> <br> next website!</h2>
+        <button class="section__btn btn">Download Now!</button>
+      </div>
+
+    </section>
+    <!-- section portfolio  -->
+    <section class="section__portfolio" id="portfolio">
+      <p class="portfolio__slogan">Portfolio</p>
+      <h2 class="portfolio__h2">Recent Projects</h2>
+      <div class="portfolio__container">
+        <div class="portfolio__project stationary">
+          <p class="project__slogan">Stationary</p>
+          <p class="project__text">A yellow pencil with envelope on a clean,blue backdrop!</p>
+        </div>
+        <div class="portfolio__project ice__cream">
+          <p class="project__slogan">ice cream</p>
+          <p class="project__text">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+        </div>
+        <div class="portfolio__project strawberries">
+          <p class="project__slogan">Strawberries</p>
+          <p class="project__text">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+        </div>
+        <div class="portfolio__project workspace">
+          <p class="project__slogan">Workspace</p>
+          <p class="project__text">A yellow workspace some scissors, pencils, and other objects</p>
+        </div>
+      </div>
+    </section>
+    <!-- section btn presents -->
+    <section class="section__presentBTN">
+      <h2 class="presentBTN__text">The buttons below are impossible to resist...</h2>
+      <div class="presentBTN__container">
+        <button class="presentBTN__btnLeft btn">Click Me!</button>
+        <button class="presentBTN__btnRight btn">Look at Me!</button>
+      </div>
+    </section>
+    <!-- section contact map -->
+    <aside class="contact">
+      <iframe
+        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+
+
+      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+
+    </aside>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container__logo">
+        <span class="footer__logo"><i class="fab fa-facebook-f"></i></span>
+        <span class="footer__logo"><i class="fab fa-twitter"></i></span>
+        <span class="footer__logo"><i class="fab fa-github"></i></span>
+      </div>
+      <p class="footer__text">Copyright &copy; Your Website 2020</p>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
