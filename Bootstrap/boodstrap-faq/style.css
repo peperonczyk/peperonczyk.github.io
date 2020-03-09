@@ -1,0 +1,14 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+  opacity: .7;
+}
+hr{
+  width: 300px;
+  height: 1px;
+}
+
+button{
+  color: orange !important;
+}
