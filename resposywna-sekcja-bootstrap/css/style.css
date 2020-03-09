@@ -1,0 +1,26 @@
+body{
+  font-family: Arial, sans-serif;
+}
+h1{
+  font-size: 46px;
+  opacity: .5;
+}
+hr{
+border: 1px solid gray;
+opacity: .1;
+width: 70% !important;
+margin-bottom: 20px;
+}
+i{
+  width: 160px;
+  height: 160px;
+  line-height: 160px !important;
+  margin: 0 auto;
+  font-size: 70px;
+  color: orange;
+  background-color: rgba(247, 242, 242, 0.897);
+  border-radius: 50%;
+}
+p{
+  font-size: 22px;
+}
